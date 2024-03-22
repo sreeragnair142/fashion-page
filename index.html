@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="s.css">
+</head>
+
+<body>
+ <style>
+  .carousel-indicators [data-bs-target]{
+            box-sizing:content-box;
+            flex:0 1 auto;
+            margin-right:3px;
+            margin-left:3px;
+            text-indent:-999px;
+            cursor:pointer;
+            background-color: #fff;
+            background-clip:padding-box;
+            border:0;
+            border-top:10px solid transparent;
+            border-bottom: 10px solid transparent;
+            opacity:0.5;
+            transition: opacity .6s ease;
+            width:25px;
+            height:25px;
+            border-radius:50%;
+        }
+
+ </style>
+
+
+
+
+
+
+
+
+
+      <nav class="navbar navbar-expand-sm  navbar-light border-0  ">
+        <div class="container">
+          <a class="navbar-brand text-dark" style=" font-family: Playfair Display, serif; font-size: 27px;" href="#"><b
+              style="color:  #ED1431;font-size: 50px;">M</b>
+          </a>
+          <button class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  MODELS
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="#">Shirt</a></li>
+                  <li><a class="dropdown-item" href="#">Geans</a></li>
+                  <li><a class="dropdown-item" href="#">Kurta</a></li>
+                  <li><a class="dropdown-item" href="#">T shirt</a></li>
+                  <li><a class="dropdown-item" href="#">inner wears</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-dark" href="#">LINK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">FEATURES</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">VIDEOS</a>
+              </li>
+
+
+              <!-- <div class="container-fluid pt-5">
+                <div class="row">
+                <button class="btn btn-danger px-5 py-2 fs-5 text-center "
+                  style="position: relative;bottom: 25px; background-color: #ED1431; border-radius: 0%; ">Buy Now
+                </button>
+              </div>
+              </div> -->
+
+
+
+            </ul>
+
+          </div>
+
+      </nav>
+      </nav>
+   
+    <!-- carousal -->
+
+   
+      <div id="hero-carousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#hercgo-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img class=" d-block w-100 c-img img-fluid  " src="pexels-vitória-santos-3002552.jpg" alt="slide 1">
+            <div class="carousel-caption top-5 mt-4  d-md-block">
+
+              <h2 class="mt-5 display-1 text-light ">THINK BEYOND</h2>
+              <p class="fs-3 s" style="padding-bottom: 70px; position: relative; bottom: 90px;">Explore limitless
+                possiblities </p>
+
+
+            </div>
+          </div>
+          <div class="carousel-item  c-item">
+            <img src="fashion 2.jpg" class="d-block w-100 c-img img-fluid" alt="slide 1">
+            <div class="carousel-caption top-0 mt-4  d-md-block">
+              <p class="fs-3 w">Spring/Summer Collection 2023</p>
+              <h2 class="mt-5 display-1 ">Get Up To 30% off New Arrivals.</h2>
+              <button class="btn btn-danger px-3 py-3 fs-8 mt-5  "
+                style="position: relative;bottom: 30px; background-color: #ED1431; border-radius: 0%; ">Shoap Now
+              </button>
+
+            </div>
+          </div>
+          <div class="carousel-item  c-item">
+            <img src="fashion 3.jpg" class="d-block w-100 c-img img-fluid" alt="slide 1">
+            <div class="carousel-caption  top-0 mt-4  d-md-block">
+              <h2 class="mt-5 display-1">WELCOME TO THE WORLD</h2>
+              <p class="fs-3 mt-5 x">Style is a way to say who you are without having to speak.You can have anything you
+                want in life if you dress for it.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   
+
+    <!-- About us -->
+
+    <div class="row pt-5 text-center ">
+      <u>
+        <h3 style="font-size: 38px;">About Us</h3>
+      </u>
+    </div>
+    <div class="row row-fix justify-content-md-center ">
+
+      <div class="col-md-8 text-center ">
+        <p
+          style="margin-top: 40px;font-family: Playfair Display, serif;font-size: 22px;  color: #767777; text-align: justify;">
+          Fashion
+          designers sketch
+          designs of clothing, footwear, and accessories. Fashion designers create original clothing, accessories, and
+          footwear. They sketch designs, select fabrics and patterns, and give instructions on how to make the products
+          they design. Stylists are keen at the designs that take into account what the signs that point to these
+          designs are.Currently, the fashion industry relies more on mass-market sales. The mass market caters for a
+          wide range of customers, producing ready-to-wear garments using trends set by the famous names in fashion.
+          They often wait around a season to make sure a style is going to catch on before producing their versions of
+          the original look. </p>
+      </div>
+    </div>
+
+
+
+
+    <!-- services -->
+    <div class="row text-center pt-5 ">
+      <h3 style="font-size: 40px;">Our Services</h3>
+
+      <div class="col-md-3 m pt-5">
+        <i class="fa-regular fa-gem fa-2xl" style="color: #070307;cursor: pointer;"></i>
+        <h4 style="font-family: Playfair Display, serif;">High Quality</h4>
+        <p style="color: #345676; font-style: italic;  text-align: justify;">At a time when society is producing more
+          clothes that at any
+          point in human history, you have to assume that much of the surplus is sub-par, or at least made from cheaper
+          fabrics in parts of the world where labour costs less. And not every brand is going to be forthcoming on
+          matters of supply chains or mark-ups. </p>
+      </div>
+      <div class="col-md-3 pt-5">
+        <i class="fa-solid fa-gift fa-2xl" style="color: #01060e; cursor: pointer;"></i>
+        <h4 style="font-family: Playfair Display, serif;">Multipurpose</h4>
+        <p style="color: #345676; font-style: italic; text-align: justify;">Multifunctional fashion garments can be
+          defined as clothing or
+          clothing systems that allow different uses in different scenarios, such as adaptation (dynamic or not) to
+          diverse social situations or weather conditions, or just clothing that has different characteristics in
+          different body areas to have different ...</p>
+      </div>
+      <div class="col-md-3 pt-5">
+        <i class="fa-solid fa-globe fa-2xl" style="color: #02060d;cursor: pointer;"></i>
+        <h4 style="font-family: Playfair Display, serif;">Modern Design</h4>
+        <p style="color: #345676; font-style: italic; text-align: justify;">Fashion design is a form of art dedicated to
+          the creation of
+          clothing and other lifestyle accessories. Modern fashion design is divided into two basic categories: haute
+          couture and ready-to-wear. The haute couture collection is dedicated to certain customers and is custom sized
+          to fit these customers exactly.</p>
+      </div>
+      <div class="col-md-3 pt-5">
+        <i class="fa-solid fa-truck fa-2xl" style="color: #010409;cursor: pointer;"></i>
+        <h4 style="font-family: Playfair Display, serif;">Delivery</h4>
+        <p style="color: #345676; font-style: italic; text-align: justify;">Package delivery or parcel delivery is the
+          delivery of shipping
+          containers, parcels, or high value mail as single shipments. The service is provided by most postal systems,
+          express mail, private courier companies, and less than truckload shipping carriers.</p>
+      </div>
+
+
+
+      <!-- dress with style -->
+      <div class="row pt-5 text-start">
+        <u>
+          <h3 style="font-size: 40px;">Dress with <b style="color: darkred;">Style</b></h3>
+        </u>
+      </div>
+      <div class="col-lg-6 col-xl-3 pt-4 img-fluid ">
+        <img id="a" class="img-fluid" src="f a.jpg" style="height: 500px;">
+        <div class="col-md-12">
+          <button class="btn btn-danger px-2 py-2 fs-8 mt-5 "
+            style="position: relative;bottom: 30px; background-color: #ED1431; border-color:#ED1431 ; border-radius: 0%; ">Buy
+            Now
+          </button>
+        </div>
+        <p style="color: #345676; font-style: italic;margin-top: 0px; text-align: justify;">In East Africa, the kanzu is
+          the traditional
+          dress worn by
+          Swahili-speaking men. Women wear the kanga and the gomesi. In Southern Africa, distinctive shirts are worn,
+          like the long dresses they wear.</p>
+      </div>
+
+
+      <div class="col-lg-6 col-xl-3 pt-4 img-fluid">
+        <img id="b" class="img-fluid" src="f-b.jpg" style="height: 500px;" alt="">
+        <div class="col-md-12">
+          <button class="btn btn-danger px-2 py-2 fs-8 mt-5  "
+            style="position: relative;bottom: 30px; background-color: #ED1431; border-radius: 0%; ">Buy Now
+          </button>
+        </div>
+        <p style="color: #345676; font-style: italic;margin-top: 0px; text-align: justify;">
+          7 Must-have Sarees from India - A love affair with the ...
+          South India, Bengal, Maharashtra, and Gujarat have contributed to the vast tapestry of beautiful Indian
+          handloom sarees. South Indian saris carry the charm of bright colors and gorgeous motifs</p>
+      </div>
+
+
+      <div class="col-lg-6 col-xl-3  pt-4 img-fluid ">
+        <img id="c" class="img-fluid" src="fc-1.jpg" style="height: 500px;" alt="">
+        <div class="col-md-12">
+          <button class="btn btn-danger px-2 py-2 fs-8 mt-5 "
+            style="position: relative;bottom: 30px;background-color: #ED1431; border-radius: 0%; ">Buy Now
+          </button>
+        </div>
+        <p style="color: #345676; font-style: italic;margin-top: 0px; text-align: justify;">Why is fashion important for
+          men?
+          Clothing can increase your perceived status among your peers. Even after the first impression is over your
+          clothing can help improve people's reactions to you. Society is very visually-based, and better-dressed men
+          routinely experience better treatment </p>
+      </div>
+
+
+      <div class="col-lg-6 col-xl-3 pt-4 img-fluid ">
+        <img id="d" class="img-fluid" src="f-d.jpg" style="height: 500px;" alt="">
+        <div class="col-md-12">
+          <button class="btn btn-danger px-2 py-2 fs-8 mt-5 "
+            style="position: relative;bottom: 30px; background-color: #ED1431;  border-radius: 0%; ">Buy Now
+          </button>
+        </div>
+        <p style="color: #345676; font-style: italic;margin-top: 0px; text-align: justify;">Characteristics of
+          Fashion:Fashion is a group
+          choice- Fashion is
+          not an individual choice but it is a group choice. So long as a particular choice remains confined to an
+          individual it may better be called style and not fashion.</p>
+      </div>
+
+
+
+
+
+      <!-- Testimonials -->
+
+      <DIV class="ROW pt-5">
+
+        <section>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-xl-8 text-center">
+              <u>
+                <h3 style="font-size: 45px;" class="mb-4">Testimonials</h3>
+              </u>
+              <p style=" font-family: Playfair Display, serif; font-size: 18px; color: #626569;"
+                class="mb-4 pb-2 mb-md-5 pb-md-0">
+                Fashion designers work in various ways, some start with a vision in their head later on move into
+                drawing
+                it on paper or computer , while others go directly into draping fabric onto a dress form, also known as
+                a
+                mannequin. The design process is unique to the designer and it is rather intriguing to see the various
+                steps that go into the process.
+              </p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <div class="d-flex justify-content-center mb-4">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2duG9U5Xi28rkab9ZcmsSkXoCvGFWGaB0SQ&usqp=CAU/img%20"
+                  class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <p class="lead my-3 text-muted">
+                "Fashion design is the art of applying design, aesthetics, clothing construction and natural beauty to
+                clothing and its accessories. It is influenced by culture and different trends, and has varied over time
+                and place. "A fashion designer creates clothing, including dresses, suits, pants, and skirts, and
+                accessories like shoes and handbags, for consumers."
+              </p>
+              <p style="color: #5e6164 ;" class="font-italic font-weight-normal mb-0">- Ana De Armas</p>
+            </div>
+            <div class="col-md-6 mb-0">
+              <div class="d-flex justify-content-center mb-4">
+                <img src="https://outfittrends.b-cdn.net/wp-content/uploads/2016/11/ChristianBale.jpg"
+                  class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <p class="lead my-3 text-muted">
+                "Massive institute of fashion Technology is living up to its name in being one of the best design
+                coaching
+                institutes. The environment and the view of the center is perfectly placed to foster a sense of freedom
+                and creative thinking. very open minded and always suggestive in every manner trying to make the
+                students
+                a better person. "
+              </p>
+              <p style="color: #626569 ;" class="font-italic font-weight-normal mb-0 ">- Christian Bale</p>
+            </div>
+          </div>
+        </section>
+      </DIV>
+
+      <!-- Red Background -->
+      <section class=" bg-box ">
+        <div class="container-fluid  ">
+          <div class="row ">
+            <div class="col-md-6 col-lg-4 ">
+
+              <div class=" justify-content-start ">
+                <img class="img-fluid" src="f new2.jpg" alt="" width="350" height="450">
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-8 pt-5 ">
+              <div class=" pt-5  ">
+                <h2 style="font-size: 45px; ">On The Runway And FASHION Week</h2>
+                <p style="    font-family: Playfair Display, serif;">April 20-21, 2023, Spring Studios, Soho, NYC.
+                  Backed by Spring Studios and e-commerce retailer Revolve Group, the event is making the case for AI as
+                  a tool for fashion design, supporting new designers working with the still-nascent technology.
+                  Participants have until 15 April to submit a collection of 15 to 30 looks, which will be judged by the
+                  public via online and in-person voting, promoted on the social media channels of AI Fashion Week
+                  (AIFW), Spring Studios and Revolve, as well as through Revolve’s expansive influencer network.</p>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!-- Footer -->
+
+      <footer id="a-1" class="text-center text-lg-start bg-light text-muted ">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom ">
+          <!-- Left -->
+          <div class="me-5  d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Company name
+                </h6>
+                <p>
+                  Massive Fashion Designing PVT Limited
+                </p>
+              </div>
+
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a style="text-decoration: none;" href="#!" class="text-reset">Traditional Dresses</a>
+                </p>
+                <p>
+                  <a style="text-decoration: none;" href="#!" class="text-reset">Wedding Dresses</a>
+                </p>
+                <p>
+                  <a style="text-decoration: none;" href="#!" class="text-reset">Casual and Formal Dresses</a>
+                </p>
+                <p>
+                  <a style="text-decoration: none;" href="#!" class="text-reset">Kids Wear</a>
+                </p>
+              </div>
+
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Support
+                </h6>
+                <p>
+                  <a style="text-decoration: none;" href="#!" class="text-reset">Contact</a>
+                </p>
+                <p>
+                  <a style="text-decoration: none;" href="#!" class="text-reset">FAQs</a>
+                </p>
+                <p>
+                  <a style="text-decoration: none;" href="#!" class="text-reset">Shipping</a>
+                </p>
+                <p>
+                  <a style="text-decoration: none;" href="#!" class="text-reset">Returns</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> Tamilnadu , Chennai , 56/125</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  massive@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 91 8078256632</p>
+                <p><i class="fas fa-print me-3"></i> +91 8078256632</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2023 Copyright:
+          <a style="text-decoration: none;" class="text-reset fw-bold" href="#">Massive.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+      <!-- go to the top -->
+
+      <a href="#" id="ui-to-top" class="ui-to-top fa fa-angle-up active"></a>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
